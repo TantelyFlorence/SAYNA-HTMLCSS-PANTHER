@@ -1,0 +1,413 @@
+*{  
+    text-decoration: none;
+    list-style: none;
+}
+
+*:focus{
+    outline: none;
+}
+/* police */
+@font-face{
+    font-family: "h1";
+    src: url(/fonts/PantheraRegular-MVZ9J.ttf);
+}
+h1{
+    font: 68px "h1";
+    color: #9E91B7;
+}
+@font-face{
+    font-family: "h2";
+    src: url(/fonts/FontsFree-Net-BEYNO.ttf);
+}
+h2{
+    font: 32px "h2";
+    color: #9E91B7;
+}
+.barre2 a{
+    font: 24px "h2";
+    color: #9E91B7;
+}
+@font-face{
+    font-family: "h3";
+    src: url(/fonts/FontsFree-Net-BEYNO.ttf);
+}
+h3{
+    font: 28px "h2";
+    color: #9E91B7;
+}
+@font-face{
+    font-family: "p" ;
+    src: url(/fonts/Cantarell-Regular.ttf);
+}
+
+p,  .page a{
+    font: 16px "p";
+    color: #FFFF;
+}
+.politique a{
+    font: 10px "p";
+    color: #FFFF;
+}
+.formulaire p{
+    font: 24px "p" ;
+}
+.centre1 button{
+    font: 14px "p";
+}
+
+.formulaire h4{
+    font: 32px "p";
+}
+.cebtre0{
+    font: 30px "p";
+}
+.propos h4, .rs h4{
+    font: 18px "p";
+    letter-spacing: 6px;
+}
+/* no scroll */
+
+/* barre de navigation */
+.coté{
+    position: absolute;
+    
+}
+.coté1{
+    background-color: #FFFF;
+    height: 600px;
+    width: 3px;
+    position: fixed;
+    margin-left: 1%;
+}
+.coté2{
+    position: fixed;
+}
+.coté3{
+    background-color: #FFFF;
+    height: 500px;
+    width: 3px;
+    margin-left: 150%;
+}
+.réseaux img{
+    margin-left: 110%;
+}
+.réseaux img:hover{
+    filter: brightness(0) invert(1);
+}
+
+.barre{
+   display: flex;
+   justify-content: space-between;
+   padding: 5% 5% 0 5%; 
+}
+.barre2 {
+    display: flex;
+    margin-right: 3%;
+    /* padding-right: 5%; */
+}
+.barre2 a{
+    padding: 0% 3%;
+    color: #FFFF;
+}
+.barre2 a:hover{
+    text-decoration: underline;
+    color: #9E91B7;
+    
+}
+/* body */
+body{
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-image: url("../images/Illustrations + Logo/All pages/arrière_plan.png");
+    overflow-x: hidden;
+    animation: fade-in 1s;
+}  
+@keyframes fade-in{
+    from{
+        transform: translateX(-10%);
+    }
+    to{
+        transform:translateX(0) ;
+    }
+}
+
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* premiere section */
+.black{
+    text-align: justify;
+    margin-left: 8%;
+    background-image: url("../images/Illustrations + Logo/Accueil/Pantherhome1..png");
+    background-size: 70%;
+    background-position: 140%;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 9%
+}
+
+.black1{
+    width: 550px;
+}
+#intro{
+    color: white;
+}
+/* 2eme section */
+.killi1 a, .killi2 a{
+    color: white;
+}
+.acteur1{
+    display: flex;
+    margin-left: 8%;
+    background-color: #021740;
+    padding-left: 2%;
+    height: 260px;
+    text-align: justify;
+    width: 91%;
+}
+.acteur1 img{
+    height: 260px;
+    width: 160px;
+}
+/* 3eme section */
+.contenaire{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin: 15% 8% 8% 11%;
+}
+.contenaire p{
+    color: white;
+}
+/* 3ème section */
+.longtexte{
+    text-align: justify;
+}
+/* black panther */
+.tchalla{
+    background-color: #FFFF;
+    border-radius: 20px;
+    min-height: 350px;
+    width: 380px;
+    margin-left: 8%;
+    justify-content: center;
+    position: relative;
+    padding-top: 55%;
+    padding-bottom: 15%;
+    margin-bottom: 30%;
+}
+.centre0, .centre1{
+    text-align: center;
+}
+ul li{
+    padding: 1% 6%;
+}
+.centre1 button{
+    background-color: #07338C;
+    margin: 1%;
+    padding: 1.5% 2%;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid;
+    margin-right: 4%;
+}
+.absolue1{
+    position: absolute;
+    top: -30%;
+    left: 10%;
+    margin: auto;
+}
+.absolue1 img{
+    height: 400px;
+}
+
+.colonne2{
+    margin-top: 30%;
+
+}
+.texte{
+    color: black;
+}
+.panther6 img{
+    padding-top: 100%;
+}
+/* folmulaire */
+.formulaire{
+    text-align: center;
+    background: linear-gradient(to bottom, white, transparent);
+    width: 40%;
+    margin: auto;
+    padding: 2% 10%;
+    min-height: 400px;
+    border-radius: 120px;
+    color: #021740;
+
+}
+.form0 input{
+    border: 20px;
+    border-radius: 40px 40px;
+    border: 1px solid #021740;
+    width: 96%;
+    height: 56px;
+    padding-left: 5%;
+    background: none; 
+    margin-bottom: 3%;
+    color: #021740;
+
+    
+}
+.form1 input{
+    border: 20px;
+    border-radius: 40px 40px;
+    border: 1px solid #021740;
+    width: 96%;
+    height: 56px;
+    padding-left: 5%;
+    background: none;
+    margin-bottom: 3%;
+    color: #021740;
+
+}
+.form2 input{
+    border: 20px;
+    border-radius: 40px 40px;
+    border: 1px solid #021740;
+    width: 96%;
+    height: 200px;
+    padding-left: 5%;
+    background: none;
+    margin-bottom: 3%;
+    color: #021740;
+    
+}
+.form4 button{
+    width: 170px;
+    height: 54px;
+    text-align: center;
+    background: #FFFF;
+    border-radius: 40px 40px;
+    background-color: none;
+}
+.form4 button:hover{
+   filter: drop-shadow(0 2px 1.5rem #021740);
+}
+.contact{
+    background-image: url("../images/Illustrations + Logo/Accueil/Pantherhome7.png");
+    width: 101%;
+    padding: 12% 0;
+}
+/* foooter */
+.pieds{
+    background-image: url("/images/Illustrations + Logo/All pages/back_footer.png");
+    width: 101%;
+     padding-top: 10px;
+     min-height: 600px;
+     /* position: relative; */
+}  
+.propos{
+    display: flex;
+    width: 60%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.rs{
+    padding-left: 15%;
+    letter-spacing: 28px;
+}
+.rs h4{
+    letter-spacing: 28%;
+}
+.reseau{ 
+    display: flex;
+}
+.rs1{
+    margin-right: 9%;
+}
+
+.final{
+    position: relative;
+    width: 20%;
+    margin-left: 15%; 
+
+}
+
+.footer{
+    position: absolute;
+    top: -330%;
+    left: -25%;
+}
+.footer img{
+    width: 80%;
+}
+.final:hover:hover{
+    transform: scale(1.1);
+}
+.politique{
+    font-size: 10px;
+    display: flex;
+    justify-content: center; 
+    margin-top: 5%;  
+}
+.pltq{
+    margin: 0 5px;
+    color: #F2CEF2;
+}
+.pltq li a:before{
+    content: ".";
+}
+.pieds h4{
+    color: #FFFF;
+}
+.rs1:hover{
+    transform: scale(1.1);
+}
+/* .popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100vw;
+    height: 100vw;
+    background: rgb(0,0,0,0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    height: 220px;
+    z-index: 2;
+    text-align:center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.popup.close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height:30px;
+    background: #222;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.popup.avtive .overlay{
+    display: block;
+}
+.popup.avtive .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+} */
+
+
+
+

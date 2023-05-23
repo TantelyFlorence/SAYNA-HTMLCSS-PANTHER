@@ -1,0 +1,256 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+*:focus{
+    outline: none;
+}
+/* police */
+
+@font-face{
+    font-family: "h2";
+    src: url(/fonts/FontsFree-Net-BEYNO.ttf);
+}
+
+@font-face{
+    font-family: "p" ;
+    src: url(/fonts/Cantarell-Regular.ttf);
+}
+@font-face{
+    font-family: "forever";
+    src: url(/fonts/WakandaForever-Regular.ttf);
+}
+h1{
+    font: 43px "h2";
+    color: #9E91B7;
+}
+.barre2 a{
+    font: 24px "h2";
+    color: #9E91B7;
+}
+p,  .page a{
+    font: 16px "p";
+    color: #FFFF;
+}
+.politique a{
+    font: 10px "p";
+    color: #FFFF;
+}
+
+.propos h4, .rs h4{
+    font: 18px "p";
+    letter-spacing: 6px;
+}
+
+
+/* barre de navigation */
+
+.barre{
+   display: flex;
+   justify-content: space-between;
+   padding: 5% 9% 0 9%; 
+}
+.barre2 {
+    display: flex;
+    margin-right: 3%;
+    /* padding-right: 5%; */
+}
+.barre2 a{
+    padding: 0% 5%;
+    color: #FFFF;
+
+}
+.barre2 a:hover{
+    text-decoration: underline;
+    color: #9E91B7;
+    
+}
+/* body */
+/* les liens */
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 155% ;
+    background-image: url("../images/Illustrations + Logo/All pages/arrière_plan.png");
+    overflow-x: hidden;
+    animation: fade-in 1s;
+}  
+@keyframes fade-in{
+    from{
+        transform: translateX(-10%);
+    }
+    to{
+        transform:translateX(0) ;
+    }
+}
+/* premiere section */
+.dora{
+    width: 800px;
+    padding-left: 53%;
+    padding-bottom: 15%;
+    position: relative;
+    background-image: url("../images/Illustrations + Logo/Enigme/Pantherenigme1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 75% ;
+}
+.défi{
+    padding-top: 15%;
+}
+.para1{
+    width: 60%;
+    text-align: justify;
+    padding-left: 4%;
+}
+.titreh1{
+    padding-bottom: 15%;
+    text-align: justify;
+    width: 48%;
+}
+.image1{
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+.img2 img{
+    width: 80%;
+}
+/* 2eme section */
+.fidele p{
+    font: 32px "forever";
+    color: #9E91B7;
+    letter-spacing: 6px;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+.dechiffrer{
+    padding-left: 8%;
+    font: 24px;
+}
+.dechiffrer span{
+    font: 24px "forever";
+}
+/* 3eme section */
+.source{
+    text-align: center;
+    padding-left: 40%;
+    padding-bottom: 3%;
+}
+
+.img3{
+    position: absolute;
+    width: 900px;
+    left: 40%;
+    top: 160%;
+}
+.form11{
+    width: 300px;
+    padding-left: 8%;
+    padding-bottom: 10%;
+}
+
+.input1 input{
+    width: 380px;
+    height: 54px;
+    text-align: left;
+    background: #FFFF;
+    border-radius: 40px 40px;
+    background-color: transparent;
+    border: 1px solid #FFFF;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    color: #FFFF;
+}
+.input2 button{
+    width: 170px;
+    height: 54px;
+    text-align: center;
+    background: #FFFF;
+    border-radius: 38px 38px;
+    background-color: none;
+    margin-top: 10%;
+}
+.input2{
+    padding-left: 39%;
+}
+.input2:hover{
+    filter: drop-shadow(0 1px 1.5rem #F2CEF2);
+}
+
+/* foooter */
+.pieds{
+    background-image: url("/images/Illustrations + Logo/All pages/back_footer.png");
+    width: 101%;
+     padding-top: 10px;
+     min-height: 600px;
+}
+.propos{
+    display: flex;
+    width: 60%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.rs{
+    padding-left: 15%;
+    letter-spacing: 28px;
+}
+.rs h4{
+    letter-spacing: 28%;
+}
+.reseau{ 
+    display: flex;
+}
+.rs1{
+    margin-right: 9%;
+}
+
+.final{
+    position: relative;
+    width: 20%;
+    margin-left: 15%;
+}
+.footer{
+    position: absolute;
+    top: -330%;
+    left: -25%;
+}
+.footer img{
+    width: 80%;
+}
+.final .logo3{
+    width: 150px;
+}
+.final:hover{
+    transform: scale(1.1);
+}
+.politique{
+    font-size: 10px;
+    display: flex;
+    justify-content: center; 
+    margin-top: 5%;  
+}
+.pltq{
+    margin: 0 5px;
+    color: #F2CEF2;
+}
+.pltq li a:before{
+    content: ".";
+}
+.pieds h4{
+    color: #FFFF;
+}
+.rs1:hover{
+    transform: scale(1.1);
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
