@@ -185,7 +185,6 @@ p,  .page a{
 .barre2 {
     display: flex;
     margin-right: 3%;
-    /* padding-right: 5%; */
 }
 .barre2 a{
     padding: 0% 3%;
@@ -207,7 +206,7 @@ p,  .page a{
         font-size: 14px;
     }
 }
-@media screen and (max-width:350px)  {
+@media screen and (max-width:450px)  {
     .barre{
         padding: 5% 2% 0 2%; 
      }

@@ -90,7 +90,6 @@ p,  .page a{
 .barre2 {
     display: flex;
     margin-right: 3%;
-    /* padding-right: 5%; */
 }
 .barre2 a{
     padding: 0% 5%;
@@ -99,8 +98,7 @@ p,  .page a{
 }
 .barre2 a:hover{
     text-decoration: underline;
-    color: #9E91B7;
-    
+    color: #9E91B7;   
 }
 @media screen and (max-width:650px)  {
     .barre{
@@ -113,7 +111,7 @@ p,  .page a{
         font-size: 14px;
     }
 }
-@media screen and (max-width:350px)  {
+@media screen and (max-width:450px)  {
     .barre{
         padding: 5% 2% 0 2%; 
      }
